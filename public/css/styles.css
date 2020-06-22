@@ -1,0 +1,101 @@
+/* @imports */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header, .sub {
+    text-align: center;
+}
+
+.header {
+    font-size: 3.5em;
+    margin: 0;
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+.sub {
+    font-size: 20px;
+    margin: 0;
+    padding: 16px;
+    padding-bottom: 5px;
+}
+
+.enter {
+    padding: 16px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#input {
+    padding: 16px;
+    width: 210px;
+    margin: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: 1px solid;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#input:focus {
+    cursor: text;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#button {
+    padding: 16px;
+    width: initial;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    background: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#button:hover, #input:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#button:focus {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#header, #paragraph {
+    padding: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+strong {
+    font-family: 'Oxygen Mono', monospace;
+    font-weight: bolder;
+}
+
+.supertext {
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+}
